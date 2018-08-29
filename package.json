@@ -1,7 +1,7 @@
 {
   "name": "algolia-test",
   "version": "0.1.0",
-  "homepage": "http://dhsiung.github.io/algolia-test-2",
+  "homepage": "http://dhsiung.github.io/algolia-test-3",
   "private": true,
   "dependencies": {
     "algoliasearch": "^3.30.0",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
