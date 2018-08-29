@@ -1,0 +1,50 @@
+.App {
+  background-image: url('../../graphics/background.png');
+  font-family: 'helvetica';
+  text-align: center;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.main-container {
+  background-color: white;
+  padding-bottom:3vw;
+}
+
+.results-filter {
+  margin-top: 36px;
+  text-align: left;
+}
+
+.results-filter > .filter-title {
+  font-size: 18px;
+  margin: 0 0 10px 20px;
+}
+
+.results-filter > .filter-options {
+  width: 100%;
+}
+
+.results-filter > .filter-options > .filter-option {
+  font-size: 14px;
+  margin: 0 15px;
+  padding: 5px 30px 5px 10px;
+}
+
+.results-filter > .filter-options > .filter-option.active {
+  background-color: #4ca3e0;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.results-filter > .filter-options > .filter-option:hover {
+  background-color: #4ca3e0;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.results-filter > .filter-options > .filter-option > div > div > span:hover {
+  cursor: pointer !important;
+}
